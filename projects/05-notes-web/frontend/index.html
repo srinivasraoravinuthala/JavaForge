@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notes Web — JavaMastery Project 05</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <h1>Notes</h1>
+    <p class="muted">Talks to Spring Boot at <code id="apiBase">http://localhost:8080/api/notes</code></p>
+
+    <form id="form">
+      <input id="title" placeholder="Title" required />
+      <textarea id="body" placeholder="Body" rows="3"></textarea>
+      <button type="submit">Add note</button>
+    </form>
+
+    <ul id="list"></ul>
+    <p id="error" class="error" hidden></p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
