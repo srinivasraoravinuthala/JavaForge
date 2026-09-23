@@ -48,7 +48,9 @@ Need connections/network?     → Graph
 Need connected components?    → Union-Find
 ```
 
----
+API-level HashMap teaching (put/get, key contract, interview/practice bridges) lives in
+[17 Collections — HashMap](17-Collections.md#hashmap). This chapter’s `datastructures6HashTableImpl`
+is the under-the-hood companion.
 
 ## Practice project
 
